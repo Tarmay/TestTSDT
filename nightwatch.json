@@ -1,0 +1,30 @@
+{
+  "src_folders": "./tests/",
+  "output_folder": "./tests/reports",
+  "selenium": {
+    "start_process": true,
+    "server_path": "sel/sel.jar",
+    "log_path": "",
+    "port": 4443,
+    "cli_args": {
+      "webdriver.chrome.driver": "node_modules/chromedriver/lib/chromedriver/chromedriver.exe",
+      "webdriver.gecko.driver": "",
+      "webdriver.edge.driver": ""
+    }
+  },
+  "test_settings": {
+    "default": {
+      "selenium_port": 4443,
+      "selenium_host": "localhost",
+      "screenshots": {
+        "enabled": true,
+        "path": "tests/reports",
+        "on_failure": true,
+        "on_error": true
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome"
+      }
+    }
+  }
+}

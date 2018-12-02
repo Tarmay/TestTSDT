@@ -1,3 +1,4 @@
+
 const UrlSite = 'https://domotekhnika.ru/';
 const Btn = '//*[@id=\"main-header\"]/div[1]/div[1]/div[1]/section/div/button[1]';
 const ResT = '#search-result > div.search-result__wrap > a:nth-child(1)';
